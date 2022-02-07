@@ -27,7 +27,15 @@ header ul li {
     list-style: none;
     display: flex;
     flex-direction: row;
-    
+}
+
+header ul a {
+    color: white;
+    text-decoration: none;
+}
+
+header ul a:hover {
+    color: #3882F6;
 }
 
 /* SECTION 1 STYLES */
@@ -61,6 +69,15 @@ header ul li {
     color: white;
     font-weight: bold;
     margin-top: 15px;
+}
+
+/* SECONT 2 STYLES */
+
+.thing {
+    height: 100px;
+    width: 100px;
+    border: 3px solid #3882F6;
+    border-radius: 15px;
 }
 
 /* FOOTER STYLES */

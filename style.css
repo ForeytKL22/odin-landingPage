@@ -73,12 +73,67 @@ header ul a:hover {
 
 /* SECONT 2 STYLES */
 
-.thing {
+.section-two {
+    height: 350px;
+    text-align: center;
+}
+
+.section-two h2 {
+    margin: 3%;  
+    font-size: 40px;
+}
+
+.container {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+.info {
     height: 100px;
     width: 100px;
-    border: 3px solid #3882F6;
+    display: flex;
+    flex-direction: column;
+}
+
+.info img {
     border-radius: 15px;
 }
+
+.text {
+    font-size: 15px;
+    color:#8f97a1;
+    display: flex;
+    
+}
+
+/* SECTION 3 STYLES */
+
+.section-three {
+    background-color: #e5e7eb;
+    height: 350px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    padding: 5% 15%;
+}
+
+.author {
+    font-weight: 600;
+    font-size: 30px;
+    display: flex;
+    justify-content:flex-end;
+    margin-right: auto;
+}
+
+/* SECTION 4 STYLES */
+
+
+
+
 
 /* FOOTER STYLES */
 footer {
@@ -87,6 +142,6 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 8vh;
+    height: 60px;
     margin-top: auto;
 }

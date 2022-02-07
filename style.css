@@ -30,7 +30,38 @@ header ul li {
     
 }
 
+/* SECTION 1 STYLES */
 
+.section-one {
+    background-color: #1F2937;
+    color: white;
+    height: 400px;
+    display: flex;
+    align-items: center;
+}
+
+.section-one h1 {
+    font-size: 45px;
+}
+
+.hero-left {
+    padding-right: 10%;
+}
+
+.hero-section {
+    display: flex;
+    align-items: center;
+    padding: 0 15% 0 15%;
+}
+
+.btn {
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 1% 4% 1% 4%;
+    color: white;
+    font-weight: bold;
+    margin-top: 15px;
+}
 
 /* FOOTER STYLES */
 footer {
